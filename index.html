@@ -1,30 +1,113 @@
-<!--index.html-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" 
-          content="width=device-width,
-                    initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>
-        GeeksforGeeks Github
-    </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LaunchMate – Your E-Commerce Kickstart Partner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      background: white;
+      color: #0072ff;
+      padding: 12px 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #e0e0e0;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
-
 <body>
-    <form class="inputForm" id="userInput">
-        <h1>
-            GeeksforGeeks Github
-        </h1>
-        <input type="text" 
-        id="inputBox" 
-        autocomplete="off" 
-        placeholder="Search a Github User" />
-    </form>
-    <main id="main"></main>
-    <script src="./response.js"></script>
-</body>
 
+  <header>
+    <h1>🚀 LaunchMate</h1>
+    <p>Your partner in building a successful e-commerce store from scratch.</p>
+    <a href="#features" class="cta-button">Explore Features</a>
+  </header>
+
+  <section id="features">
+    <h2 style="text-align:center;">✨ Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>🧠 Niche Discovery</h3>
+        <p>Find profitable niches tailored to your interests.</p>
+      </div>
+      <div class="feature">
+        <h3>🛒 Store Setup</h3>
+        <p>Step-by-step guidance to launch your online store.</p>
+      </div>
+      <div class="feature">
+        <h3>✍️ Product Descriptions</h3>
+        <p>Engaging copy that converts visitors into buyers.</p>
+      </div>
+      <div class="feature">
+        <h3>📈 Marketing Tips</h3>
+        <p>Learn how to attract and retain customers.</p>
+      </div>
+      <div class="feature">
+        <h3>📦 Free Templates</h3>
+        <p>Use our starter templates to get up and running fast.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 LaunchMate. All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
